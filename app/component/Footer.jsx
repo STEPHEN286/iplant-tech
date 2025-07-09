@@ -3,6 +3,7 @@
 import { Leaf } from 'lucide-react';
 import React from 'react';
 import Image from 'next/image'
+import logo from '../../public/logo.svg'
 
 export default function Footer() {
   const contactInfo = {
@@ -18,7 +19,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Image src="https://i.imgur.com/K5Gto8J.png" alt="logo" width={32} height={32} className="h-8 w-auto" />
+              <Image src={logo} alt="logo" width={32} height={32} className="h-8 w-auto" />
             </div>
             <p className="text-gray-400">Transforming planting with smart technology since 2025</p>
           </div>

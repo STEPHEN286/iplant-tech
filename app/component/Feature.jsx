@@ -8,10 +8,10 @@ export default function Feature() {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
               <h2 className="text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl mb-4">
-                Smart Features for Smarter Farming
+                Smart pod Features for Smart Planting
               </h2>
               <p className="text-base md:text-lg text-gray-600">
-                Our comprehensive plant care system combines cutting-edge technology with agricultural expertise.
+                Our comprehensive plant care system combines cutting-edge technology with planting expertise.
               </p>
             </div>
 
