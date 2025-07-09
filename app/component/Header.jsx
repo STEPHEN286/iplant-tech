@@ -10,7 +10,7 @@ export default function Header() {
      <header className="fixed mb-[150px] md:mb-10 z-50 w-full bg-white shadow backdrop-blur-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image src="https://i.imgur.com/K5Gto8J.png" alt="logo" width={40} height={30} className="h-5 w-auto" />
+            <Image src="https://i.imgur.com/K5Gto8J.png" alt="logo" width={60} height={50} className="h-8 w-auto object-contain" />
           </div>
 
           
