@@ -1,0 +1,30 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: [
+      'i.imgur.com',
+      'images.unsplash.com',
+      'res.cloudinary.com'
+    ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.imgur.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '/**',
+      },
+    ],
+  },
+};
+
+module.exports = nextConfig;
+  
