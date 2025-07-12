@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 // import { a } from 'react-router-dom'
 import { Leaf } from "lucide-react"
 import Image from 'next/image'
-import logo from '../../public/logo.svg'
 
 export default function Header() {
      const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -11,7 +10,7 @@ export default function Header() {
      <header className="fixed mb-[150px] md:mb-10 z-50 w-full bg-white shadow backdrop-blur-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image src={logo} alt="logo" width={20} height={20} className="h-5 w-auto" />
+            <Image src="https://res.cloudinary.com/dmgt3ctyd/image/upload/v1752267029/logo_tqj6ky.svg" alt="logo" width={20} height={20} className="h-5 w-auto" />
           </div>
 
           
