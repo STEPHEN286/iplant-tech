@@ -34,9 +34,9 @@ export default function Hero() {
                 <a href='#waitlist' className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium">
                    Join the Waitlist
                 </a>
-                {/* <a href='#contact' className=" border border-white hover:border-green-700 text-white px-6 py-3 rounded-md font-medium">
+                <a href='/contact' className="border border-white hover:border-green-700 text-white px-6 py-3 rounded-md font-medium">
                   Contact Us
-                </a> */}
+                </a>
               </div>
             </div>
           </div>

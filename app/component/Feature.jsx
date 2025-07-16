@@ -42,6 +42,21 @@ export default function Feature() {
                 <p>Monitor temperature and humidity to create the perfect environment for your crops.</p>
               </div>
             </div>
+
+            {/* Call to Action */}
+            <div className="text-center mt-12 md:mt-16">
+              <p className="text-lg text-gray-600 mb-6">
+                Ready to transform your plant care experience?
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#waitlist" className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-md font-medium transition-colors">
+                  Join the Waitlist
+                </a>
+                <a href="/contact" className="border border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-6 py-3 rounded-md font-medium transition-colors">
+                  Learn More
+                </a>
+              </div>
+            </div>
           </div>
         </section>
   )

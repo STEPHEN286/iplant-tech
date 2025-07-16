@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1c2a1c] text-white py-10 md:py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Image src="https://res.cloudinary.com/dmgt3ctyd/image/upload/v1752267029/logo_tqj6ky.svg" alt="logo" width={32} height={32} className="h-8 w-auto" />
@@ -34,6 +34,11 @@ export default function Footer() {
               <li>
                 <a href="#features" className="text-gray-400 hover:text-white transition-colors">
                   Features
+                </a>
+              </li>
+              <li>
+                <a href="#waitlist" className="text-gray-400 hover:text-white transition-colors">
+                  Join Waitlist
                 </a>
               </li>
               <li>
@@ -58,6 +63,32 @@ export default function Footer() {
                 )}
               </p>
             ))}
+          </div>
+
+          <div>
+            <h3 className="font-bold mb-4">Resources</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="https://www.gardeningknowhow.com/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  Gardening Know How
+                </a>
+              </li>
+              <li>
+                <a href="https://www.almanac.com/gardening" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  The Old Farmer's Almanac
+                </a>
+              </li>
+              <li>
+                <a href="https://www.bhg.com/gardening/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  Better Homes & Gardens
+                </a>
+              </li>
+              <li>
+                <a href="https://www.rhs.org.uk/advice" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  RHS Gardening Advice
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 

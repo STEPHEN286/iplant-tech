@@ -23,6 +23,9 @@ export default function Header() {
             <a href="#features" className="text-sm font-medium text-gray-900 hover:text-green-600 transition-colors">
               Features
             </a>
+            <a href="#waitlist" className="text-sm font-medium text-gray-900 hover:text-green-600 transition-colors">
+              Join Waitlist
+            </a>
             <a href="/contact" className="text-sm font-medium text-gray-900 hover:text-green-600 transition-colors">
               Contact
             </a>
@@ -67,6 +70,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Features
+              </a>
+              <a
+                href="#waitlist"
+                className="text-gray-900 hover:text-green-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Join Waitlist
               </a>
               <a
                 href="/contact"
