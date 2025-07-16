@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Cta() {
   const contactInfo = {
-    email: { address: 'plantpal.ai.tech@gmail.com', link: 'mailto:plantpal.ai.tech@gmail.com' },
+    email: { address: 'iplanttech.ai@gmail.com', link: 'mailto:iplanttech.ai@gmail.com' },
     phone: { number: '+233 50 024 2059', link: 'tel:+233 27 177 4756' },
     location: { text: 'Accra, Ghana' },
     availability: { text: 'Mon - Fri: 9 AM - 5 PM' },

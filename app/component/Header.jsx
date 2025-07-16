@@ -7,20 +7,23 @@ import Image from 'next/image'
 export default function Header() {
      const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-     <header className="fixed mb-[150px] md:mb-10 z-50 w-full bg-white shadow backdrop-blur-sm">
+     <header className="fixed top-0 left-0 right-0 z-50 w-full bg-white shadow backdrop-blur-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image src="https://res.cloudinary.com/dmgt3ctyd/image/upload/v1752267029/logo_tqj6ky.svg" alt="logo" width={20} height={20} className="h-5 w-auto" />
+            <a href="/" className="flex items-center gap-2">
+              <Image src="https://res.cloudinary.com/dmgt3ctyd/image/upload/v1752267029/logo_tqj6ky.svg" alt="logo" width={20} height={20} className="h-5 w-auto" />
+            </a>
           </div>
 
           
           <nav className="hidden md:flex gap-6">
+            <a href="/" className="text-sm font-medium text-gray-900 hover:text-green-600 transition-colors">
+              Home
+            </a>
             <a href="#features" className="text-sm font-medium text-gray-900 hover:text-green-600 transition-colors">
               Features
             </a>
-            
-           
-            <a href="#contact" className="text-sm font-medium text-gray-900 hover:text-green-600 transition-colors">
+            <a href="/contact" className="text-sm font-medium text-gray-900 hover:text-green-600 transition-colors">
               Contact
             </a>
           </nav>
@@ -52,16 +55,21 @@ export default function Header() {
           <div className="md:hidden bg-white p-4 shadow">
             <nav className="flex flex-col space-y-4">
               <a
+                href="/"
+                className="text-gray-900 hover:text-green-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Home
+              </a>
+              <a
                 href="#features"
                 className="text-gray-900 hover:text-green-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Features
               </a>
-             
-              
               <a
-                href="#contact"
+                href="/contact"
                 className="text-gray-900 hover:text-green-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >

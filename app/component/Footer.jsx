@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Footer() {
   const contactInfo = {
-    email: { label: 'Email', value: 'iPlantTech.ai@ghana.com', link: 'mailto:info@iPlantTech.com' },
+    email: { label: 'Email', value: 'iplanttech.ai@gmail.com', link: 'mailto:iplanttech.ai@gmail.com' },
     phone: { label: 'Phone', value: '+233 50 024 2059', link: 'tel:+23350242059' },
     location: { label: 'Location', value: 'Accra, Ghana' },
     availability: { label: 'Availability', value: 'Mon - Fri: 9 AM - 5 PM' },
@@ -27,12 +27,17 @@ export default function Footer() {
             <h3 className="font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
+                <a href="/" className="text-gray-400 hover:text-white transition-colors">
+                  Home
+                </a>
+              </li>
+              <li>
                 <a href="#features" className="text-gray-400 hover:text-white transition-colors">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
+                <a href="/contact" className="text-gray-400 hover:text-white transition-colors">
                   Contact
                 </a>
               </li>
