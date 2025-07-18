@@ -69,7 +69,7 @@ export default function ContactPage() {
 
               <div>
                 <div className="space-y-6">
-                  <Card className="border-0">
+                  {/* <Card className="border-0">
                     <CardContent className="p-6 flex items-center gap-4">
                       <div className="w-12 h-12 bg-green-100 rounded flex items-center justify-center">
                         <MapPin className="w-6 h-6 text-green-600" />
@@ -79,21 +79,8 @@ export default function ContactPage() {
                         <p className="text-gray-600">123 Plant Street, Green Valley, CA 90210</p>
                       </div>
                     </CardContent>
-                  </Card>
+                  </Card> */}
   
-                  <Card className="border-0">
-                    <CardContent className="p-6 flex items-center gap-4">
-                      <div className="w-12 h-12 bg-green-100 rounded flex items-center justify-center">
-                        <Phone className="w-6 h-6 text-green-600" />
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-gray-900">Phone</h3>
-                        <a href="tel:+233500242059" className="text-gray-600 hover:text-green-600 transition-colors">
-                          +233 50 024 2059
-                        </a>
-                      </div>
-                    </CardContent>
-                  </Card>
   
                   <Card className="border-0">
                     <CardContent className="p-6 flex items-center gap-4">
@@ -157,48 +144,7 @@ export default function ContactPage() {
       </section>
 
       {/* Helpful Resources Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Helpful Resources</h2>
-            <p className="text-lg text-gray-600">Learn more about smart gardening and plant care</p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">Smart Gardening Guide</h3>
-              <p className="text-gray-600 mb-4">Discover the latest trends in smart gardening technology and how it can benefit your plants.</p>
-              <a href="https://www.gardeningknowhow.com/special/organic/" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 font-medium">
-                Read More →
-              </a>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">Plant Care Tips</h3>
-              <p className="text-gray-600 mb-4">Essential tips for keeping your indoor and outdoor plants healthy and thriving.</p>
-              <a href="https://www.almanac.com/plant/indoor-plants" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 font-medium">
-                Read More →
-              </a>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">Technology in Agriculture</h3>
-              <p className="text-gray-600 mb-4">Explore how modern technology is revolutionizing agriculture and plant monitoring.</p>
-              <a href="https://www.bhg.com/gardening/design/projects/smart-garden-technology/" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 font-medium">
-                Read More →
-              </a>
-            </div>
-          </div>
-          
-          <div className="text-center mt-12">
-            <p className="text-gray-600 mb-6">Ready to get started with smart plant care?</p>
-            <a href="/" className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-md font-medium transition-colors">
-              Back to Home
-            </a>
-          </div>
-        </div>
-      </section>
-
+     
       <section className=" w-full  mt-8 mb-5">
         <div className="max-w-7xl mx-auto px-4">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">Our Location</h3>
