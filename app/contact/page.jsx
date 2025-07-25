@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { MapPin, Phone, Mail, Clock } from "lucide-react"
+import {  Mail, Clock } from "lucide-react"
 import { HeroSection } from "@/components/ui/hero-section"
 import { Map } from "@/components/ui/map"
 
@@ -103,8 +103,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-gray-900">Business Hours</h3>
-                        <p className="text-gray-600">Mon-Fri: 9AM-6PM PST</p>
-                        <p className="text-gray-600">Sat-Sun: 10AM-4PM PST</p>
+                        <p className="text-gray-600">Mon-Fri: 9AM-5PM </p>
+                        {/* <p className="text-gray-600">Sat-Sun: 10AM-4PM PST</p> */}
                       </div>
                     </CardContent>
                   </Card>
