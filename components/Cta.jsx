@@ -16,11 +16,11 @@ export default function Cta() {
   return (
     <section id="contact" className="py-16 md:py-20 bg-green-600 text-white">
       <div className="container mx-auto px-4">
-        <div className="flex gap-4 flex-col md:flex-row items-center md:items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left Container: Image */}
-          <div className="md:w-1/2 mb-8 md:mb-0">
+          <div>
             <Image
-              src="https://res.cloudinary.com/disgj6wx5/image/upload/v1750523602/t2iswmrctgp8cabex4lg.jpg"
+              src="/IMG_2538.jpg"
               alt="Farm Transformation"
               width={600}
               height={400}
@@ -28,9 +28,7 @@ export default function Cta() {
             />
           </div>
 
-
-
-          <div className="md:w-1/2 bg-white p-8 md:p-12 text-gray-800 flex flex-col justify-between rounded-lg shadow-lg">
+          <div className="bg-white p-8 md:p-12 text-gray-800 flex flex-col justify-between rounded-lg shadow-lg">
             <div>
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
               <div className="space-y-4">

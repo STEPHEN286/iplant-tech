@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Hero from "./component/Hero";
-import Feature from "./component/Feature";
-import Problem from "./component/Problem";
-import Solution from "./component/Solution";
-import PlantPalLandingPage from "./component/Page";
-import Cta from "./component/Cta";
+import Hero from "../components/Hero";
+import Feature from "../components/Feature";
+import Problem from "../components/Problem";
+import Solution from "../components/Solution";
+import PlantPalLandingPage from "../components/Page";
+import Cta from "../components/Cta";
 
 export default function Home() {
   return (
