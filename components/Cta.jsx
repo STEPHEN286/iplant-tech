@@ -20,8 +20,8 @@ export default function Cta() {
           {/* Left Container: Image */}
           <div>
             <Image
-              src="/IMG_2538.jpg"
-              alt="Farm Transformation"
+              src="/IMG_2538.JPG"
+              alt="smart pod image"
               width={600}
               height={400}
               className="w-full rounded-lg shadow-lg"
